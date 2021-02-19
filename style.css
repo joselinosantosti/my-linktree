@@ -92,7 +92,7 @@ body {
 .content {
   padding: 50px 30px 20px;
   width: 100%;
-  color: #43085f;
+  color: #333;
   overflow: hidden;
   position: relative;
 }
