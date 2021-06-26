@@ -14,13 +14,15 @@ li {
 }
 
 body {
-  background-image: url('assets/bg.png'), linear-gradient(101.07deg, #1da1f2 7.93%, #00f1f9 93.3%);
-  font-family: "Nunito", sans-serif;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: url('assets/ruido.png'),
+  url('assets/capa.png'),
+  linear-gradient(50deg, #ff4169, #7c26f8);
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
-  position: relative;
+
+  font-family: Roboto, "Nunito", sans-serif;
+  /*background-image: url('assets/bg.png'), linear-gradient(101.07deg, #1da1f2 7.93%, #00f1f9 93.3%); */
 }
 
 .container {
@@ -59,7 +61,7 @@ body {
   width: 223px;
   justify-content: space-around;
   align-items: center;
-  background: rgba(29, 161, 242, 0.35);
+  background: rgba(124, 38, 248, 0.35);
   border-radius: 50px;
   position: absolute;
   top: -32px;
@@ -77,7 +79,7 @@ body {
 }
 
 .social-media-container svg {
-  color: rgb(29, 161, 242);
+  color: rgba(124, 38, 248);
 }
 
 .info-container {
@@ -182,7 +184,8 @@ body {
   border: 1px solid #bcbcbc;
   border-radius: 16px;
   text-decoration: none;
-  color: #1da1f2;
+  color: #7c26f8;
+
   cursor: pointer;
   -webkit-box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
   -moz-box-shadow: 4px 4px 18px -5px rgba(179, 179, 179, 0.72);
@@ -190,7 +193,7 @@ body {
 }
 
 .link.highlight {
-  background: #1da1f2;
+  background: #7c26f8;
   border: 1px solid #0d75b5;
   color: #fff;
   font-weight: bold;
